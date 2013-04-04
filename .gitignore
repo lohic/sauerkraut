@@ -34,3 +34,5 @@ wp-content/themes/*
 !wp-content/themes/sauerkraut/
 
 wp-content/plugins/hello.php
+
+!_RECHERCHE/
