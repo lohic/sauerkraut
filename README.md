@@ -11,5 +11,7 @@ test nicolas
 
 ajouter du wp-config.php :
 ```php
-if(is_admin()) { add_filter('filesystem_method', create_function('$a', 'return "direct";' )); define( 'FS_CHMOD_DIR', 0751 );     }
+if(is_admin()) {
+  add_filter('filesystem_method', create_function('$a', 'return "direct";' )); define( 'FS_CHMOD_DIR', 0751 );
+}
 ```
