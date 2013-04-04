@@ -36,3 +36,5 @@ wp-content/themes/*
 wp-content/plugins/hello.php
 
 !_RECHERCHE/
+
+.DS_Store
