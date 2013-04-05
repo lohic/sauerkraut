@@ -13,6 +13,6 @@ if(is_admin()) {
 }
 ```
 
-- [ ] test de liste
+- [] test de liste
 - [x] ça fonctionne
-- [ ] un dernier
+- [] un dernier
