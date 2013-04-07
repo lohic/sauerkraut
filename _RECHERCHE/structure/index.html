@@ -7,40 +7,40 @@
 <style>
 
 
-/* observatoire est à droite */
+/* observatoire est à gauche */
 #observatoire{
 	position:fixed;
-	left:0;
-	top:10%;
-	bottom:10%;
+	left:17%;
+	top:15%;
+	bottom:5%;
 	right:30%;
-	background:#3F0;
+	background:#FFF;
 	overflow-y:auto;
+	border: 2px solid;
 }  
 
 
 
-/* laboratoire est à gauche */
+/* laboratoire est à droite */
 #laboratoire{
 	position:fixed;
 	left:30%;
 	top:10%;
 	bottom:10%;
-	right:0;
-	background:#F00;
+	right:17%;
+	background:#FFF;
 	overflow-y:auto;
+	border: 2px solid;
 }
 
 
 .scrollObservatoire{
-	margin-left:20%;
-	margin-right:2%;
+	margin : 20px;
 	background:#FFF;
 }
 
 .scrollLaboratoire{
-	margin-right:20%;
-	margin-left:2%;
+	margin : 20px;
 	background:#FFF;
 }
 
@@ -112,7 +112,7 @@ $(document).ready(function(){
 
 <div id="observatoire">
 	<div class="scrollObservatoire">
-	  <p>p</p>
+	  <p>observatoire</p>
 	  <p>p</p>
 	  <p>p</p>
 	  <p>p</p>
@@ -164,7 +164,7 @@ $(document).ready(function(){
 </div>
 <div id="laboratoire">
 	<div class="scrollLaboratoire">
-	  <p>p</p>
+	  <p>laboratoire</p>
 	  <p>p</p>
 	  <p>pp</p>
 	  <p>p</p>
