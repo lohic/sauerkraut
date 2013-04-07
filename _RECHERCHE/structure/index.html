@@ -10,14 +10,14 @@
 	left:0;
 	top:0;
 	bottom:0;
-	right:50%;
+	right:30%;
 	background:#3F0;
 	overflow-y:auto;
 }
 
 #laboratoire{
 	position:fixed;
-	left:50%;
+	left:30%;
 	top:0;
 	bottom:0;
 	right:0;
@@ -32,6 +32,58 @@
 /* commentaire*/
 
 </style>
+
+
+
+
+<script src="jquery-1.9.1.js"></script>
+<script src="jquery-migrate-1.1.0.js"></script>
+
+<script>
+
+$(document).ready(function(){
+	
+	$('#laboratoire').click(function(){
+		$('#laboratoire').css('z-index',2);
+		$('#observatoire').css('z-index',1);
+		$('#liens').css('z-index',0)
+	});
+	$('#observatoire').click(function(){
+		$('#laboratoire').css('z-index',1);
+		$('#observatoire').css('z-index',2);
+		$('#liens').css('z-index',0)
+		
+	});
+	
+	$('#liens').click(function(){
+		$('#liens').css('z-index',3)
+	});
+	
+	$('.article h2').click(function(){
+		$('.article .content')
+		.html('')
+		.animate({height:'50px'});
+		
+		var container = $(this).parent().parent().find('.content');
+		
+		container.css('background-color','#FFF');
+		container.load('article.html .content', function (){
+			container.animate({height:'500px'});
+		});
+	});	
+
+	$('#menu').click(function() {
+		$(this).animate({top:'0px'});
+		$('#menu').click(function() {
+		$(this).animate({top:'-150px'});
+		
+	})
+	})
+
+});
+
+</script>
+
 
 </head>
 
