@@ -5,30 +5,49 @@
 <title>Document sans nom</title>
 
 <style>
+
+
+/* observatoire est à droite */
 #observatoire{
 	position:fixed;
 	left:0;
-	top:0;
-	bottom:0;
+	top:10%;
+	bottom:10%;
 	right:30%;
 	background:#3F0;
 	overflow-y:auto;
-}
+}  
 
+
+
+/* laboratoire est à gauche */
 #laboratoire{
 	position:fixed;
 	left:30%;
-	top:0;
-	bottom:0;
+	top:10%;
+	bottom:10%;
 	right:0;
 	background:#F00;
 	overflow-y:auto;
 }
 
-.scroll{
-	margin:20px;
+
+.scrollObservatoire{
+	margin-left:20%;
+	margin-right:2%;
 	background:#FFF;
 }
+
+.scrollLaboratoire{
+	margin-right:20%;
+	margin-left:2%;
+	background:#FFF;
+}
+
+
+
+
+
 /* commentaire*/
 
 </style>
@@ -55,7 +74,7 @@ $(document).ready(function(){
 		
 	});
 	
-	$('#liens').click(function(){
+/* 		$('#liens').click(function(){
 		$('#liens').css('z-index',3)
 	});
 	
@@ -71,6 +90,8 @@ $(document).ready(function(){
 			container.animate({height:'500px'});
 		});
 	});	
+
+*/
 
 	$('#menu').click(function() {
 		$(this).animate({top:'0px'});
@@ -90,7 +111,7 @@ $(document).ready(function(){
 <body>
 
 <div id="observatoire">
-	<div class="scroll">
+	<div class="scrollObservatoire">
 	  <p>p</p>
 	  <p>p</p>
 	  <p>p</p>
@@ -142,7 +163,7 @@ $(document).ready(function(){
 	</div>
 </div>
 <div id="laboratoire">
-	<div class="scroll">
+	<div class="scrollLaboratoire">
 	  <p>p</p>
 	  <p>p</p>
 	  <p>pp</p>
