@@ -45,6 +45,18 @@
 }
 
 
+#liens {
+	position:fixed;
+	left:50%;
+	top:30%;
+	bottom:30%;
+	right: 14%;
+	border: 2px solid;
+	background:#FFF;
+	padding-left: 10px;
+}
+
+
 
 
 
@@ -73,6 +85,15 @@ $(document).ready(function(){
 		$('#liens').css('z-index',0)
 		
 	});
+
+
+
+	$('#liens').click(function(){
+		$('#liens').css('z-index',3)
+	});
+
+
+
 	
 /* 		$('#liens').click(function(){
 		$('#liens').css('z-index',3)
@@ -190,6 +211,10 @@ $(document).ready(function(){
 	  <p>p</p>
 	  <p>p</p>
 	  <p>&nbsp;</p></div>
+</div>
+
+<div id="liens">
+	<p>LIENS</p>
 </div>
 
 </body>
