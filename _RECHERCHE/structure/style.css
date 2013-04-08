@@ -1,0 +1,112 @@
+@charset "UTF-8";
+/*
+Theme Name: Sauerkraut
+Theme URI: http://comgraph.esad-stg.org
+Description: Thème minimal pour wordpress.
+Version: 1.0
+Author: l'équipe design de l'atelier de communication graphique de la HEAR
+ 
+Creation Theme by l'équipe designe de l'atelier de communication graphique de la HEAR
+ 
+*/
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*corps de la page web */
+
+
+/* observatoire est à gauche */
+#observatoire{
+	position:fixed;
+	left:17%;
+	top:15%;
+	bottom:5%;
+	right:30%;
+	background:#FFF;
+	overflow-y:auto;
+	border: 2px solid;
+}  
+
+
+
+/* laboratoire est à droite */
+#laboratoire{
+	position:fixed;
+	left:30%;
+	top:10%;
+	bottom:10%;
+	right:17%;
+	background:#FFF;
+	overflow-y:auto;
+	border: 2px solid;
+}
+
+
+.scrollObservatoire{
+	margin : 20px;
+	background:#FFF;
+}
+
+.scrollLaboratoire{
+	margin : 20px;
+	background:#FFF;
+}
+
+
+#liens {
+	position:fixed;
+	left:50%;
+	top:30%;
+	bottom:30%;
+	right: 14%;
+	border: 2px solid;
+	background:#FFF;
+	padding-left: 10px;
+}

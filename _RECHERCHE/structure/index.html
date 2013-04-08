@@ -2,73 +2,10 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Document sans nom</title>
+<title>Choucroute graphique</title>
 
-<style>
-
-
-/* observatoire est à gauche */
-#observatoire{
-	position:fixed;
-	left:17%;
-	top:15%;
-	bottom:5%;
-	right:30%;
-	background:#FFF;
-	overflow-y:auto;
-	border: 2px solid;
-}  
-
-
-
-/* laboratoire est à droite */
-#laboratoire{
-	position:fixed;
-	left:30%;
-	top:10%;
-	bottom:10%;
-	right:17%;
-	background:#FFF;
-	overflow-y:auto;
-	border: 2px solid;
-}
-
-
-.scrollObservatoire{
-	margin : 20px;
-	background:#FFF;
-}
-
-.scrollLaboratoire{
-	margin : 20px;
-	background:#FFF;
-}
-
-
-#liens {
-	position:fixed;
-	left:50%;
-	top:30%;
-	bottom:30%;
-	right: 14%;
-	border: 2px solid;
-	background:#FFF;
-	padding-left: 10px;
-}
-
-
-
-
-
-/* commentaire*/
-
-</style>
-
-
-
-
-<script src="jquery-1.9.1.js"></script>
-<script src="jquery-migrate-1.1.0.js"></script>
+<link rel="stylesheet" href="style.css" type="text/css" media="screen" />
+<script src="js/jquery-1.9.1.min.js"></script>
 
 <script>
 
@@ -85,42 +22,15 @@ $(document).ready(function(){
 		$('#liens').css('z-index',0)
 		
 	});
-
-
-
 	$('#liens').click(function(){
 		$('#liens').css('z-index',3)
 	});
-
-
-
-	
-/* 		$('#liens').click(function(){
-		$('#liens').css('z-index',3)
-	});
-	
-	$('.article h2').click(function(){
-		$('.article .content')
-		.html('')
-		.animate({height:'50px'});
-		
-		var container = $(this).parent().parent().find('.content');
-		
-		container.css('background-color','#FFF');
-		container.load('article.html .content', function (){
-			container.animate({height:'500px'});
-		});
-	});	
-
-*/
-
 	$('#menu').click(function() {
 		$(this).animate({top:'0px'});
 		$('#menu').click(function() {
-		$(this).animate({top:'-150px'});
-		
-	})
-	})
+			$(this).animate({top:'-150px'});
+		});
+	});
 
 });
 
