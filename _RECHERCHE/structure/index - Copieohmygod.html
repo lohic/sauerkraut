@@ -1,0 +1,169 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Choucroute graphique</title>
+
+<link rel="stylesheet" href="style.css" type="text/css" media="screen" />
+<script src="js/jquery-1.9.1.min.js"></script>
+<script type="text/javascript" src="js/ascenseur.js"></script>
+
+<script>
+
+$(document).ready(function(){
+	
+	$('#laboratoire').click(function(){
+		$('#laboratoire').css('z-index',2);
+		$('#observatoire').css('z-index',1);
+		$('#liens').css('z-index',0)
+	});
+	$('#observatoire').click(function(){
+		$('#laboratoire').css('z-index',1);
+		$('#observatoire').css('z-index',2);
+		$('#liens').css('z-index',0)
+		
+	});
+	$('#liens').click(function(){
+		$('#liens').css('z-index',3)
+	});
+	$('#menu').click(function() {
+		$(this).animate({top:'0px'});
+		$('#menu').click(function() {
+			$(this).animate({top:'-150px'});
+		});
+	});
+
+});
+</script>
+
+</head>
+
+<body>
+<!-- test commit-->
+<div id="observatoire">
+	<div class="scrollObservatoire">
+	  <h1>observatoire</h1>
+	  <h2 class="ascenseur">Titre 1</h1>
+	  <div>
+	  <p>p</p>
+	  <p>p</p>
+	  <p>p</p>
+	  <p>p</p>
+	  <p>p</p>
+	  <p>p</p>
+	  <p>p</p>
+	  <p>pp</p>
+	  <p>pp</p>
+	  <p>p</p>
+	  <p>p</p>
+	  <p>p</p>
+	  <p>p</p>
+	  <p>p</p>
+	  <p>p</p>
+	  <p>pp</p>
+	  <p>p</p>
+	  <p>p</p>
+	  <p>p</p>
+	  <p>p</p>
+	  <p>p</p>
+	  <p>p</p>
+	  <p>p</p>
+	  </div>
+	  <h2 class="ascenseur">Titre 2</h1>
+	  <div>
+	  <p>pp</p>
+	  <p>p</p>
+	  <p>p</p>
+	  <p>p</p>
+	  <p>p</p>
+	  <p>pp</p>
+	  <p>p</p>
+	  <p>p</p>
+	  <p>p</p>
+	  <p>p</p>
+	  <p>p</p>
+	  <p>p</p>
+	  </div>
+	  <h2 class="ascenseur">Titre 3</h1>
+	  <div>
+	  <p>p</p>
+	  <p>p</p>
+	  <p>p</p>
+	  <p>p</p>
+	  <p>p</p>
+	  <p>p</p>
+	  <p>p</p>
+	  <p>p</p>
+	  <p>p</p>
+	  <p>p</p>
+	  <p>p</p>
+	</div>
+	  <p>&nbsp;</p>
+	</div>
+</div>
+<div id="laboratoire">
+	<div class="scrollLaboratoire">
+	  <h1>laboratoire</h1>
+	  <h2 class="ascenseur">Titre 1</h1>
+	  <div>
+	  <p>p</p>
+	  <p>pp</p>
+	  <p>p</p>
+	  <p>p</p>
+	  <p>p</p>
+	  <p>p</p>
+	  <p>pp</p>
+	  </div>
+	  <h2 class="ascenseur">Titre 2</h1>
+	  <div>
+	  <p>p</p>
+	  <p>p</p>
+	  <p>p</p>
+	  <p>pp</p>
+	  <p>p</p>
+	  <p>p</p>
+	  <p>p</p>
+	  <p>p</p>
+	  <p>p</p>
+	  <p>p</p>
+	  </div>
+	  <h2 class="ascenseur">Titre 3</h1>
+	  <div>
+	  <p>p</p>
+	  <p>p</p>
+	  <p>p</p>
+	  <p>p</p>
+	  <p>p</p>
+	  <p>p</p>
+	  <p>p</p>
+	  <p>p</p>
+	  <p>p</p>
+	  <p>p</p>
+	  <p>p</p>
+	  <p>p</p>
+	  <p>p</p>
+	  </div>
+	  <h2 class="ascenseur">Titre 4</h1>
+	  <div>
+	  <p>p</p>
+	  <p>p</p>
+	  <p>p</p>
+	  <p>p</p>
+	  <p>p</p>
+	  <p>p</p>
+	  <p>p</p>
+	  <p>p</p>
+	  <p>p</p>
+	  <p>p</p>
+	  <p>p</p>
+	  <p>p</p>
+	</div>
+	  <p>&nbsp;</p></div>
+</div>
+
+<div id="liens">
+	<p>LIENS</p>
+</div>
+
+</body>
+</html>
