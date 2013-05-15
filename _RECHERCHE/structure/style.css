@@ -59,6 +59,7 @@ table {
 	border-spacing: 0;
 }
 
+@media screen and (min-width: 640px) {
 /*corps de la page web */
 .ascenseur{cursor:pointer;}
 h1{font-size: 24px; font-weight: bold;}
@@ -111,4 +112,65 @@ h2{font-weight: bold;}
 	border: 2px solid;
 	background:#FFF;
 	padding-left: 10px;
+}
+}
+
+
+@media screen and (max-width: 640px) {
+/*corps de la page web */
+.ascenseur{cursor:pointer;}
+h1{font-size: 24px; font-weight: bold;}
+h2{font-weight: bold;}
+
+/* observatoire est à gauche */
+#observatoire{
+	position:absolute;
+	margin-top:650px;
+	margin-right:5%;
+	margin-left:5%;
+    height:600px;
+    width:90%;
+	background:#FFF;
+	overflow-y:auto;
+	border: 2px solid;
+}  
+
+
+
+/* laboratoire est à droite */
+#laboratoire{
+	position:absolute;
+	margin-top:20px;
+	margin-right:5%;
+	margin-left:5%;
+    height:600px;
+    width:90%;
+	background:#FFF;
+	overflow-y:auto;
+	border: 2px solid;
+}
+
+
+.scrollObservatoire{
+	margin : 20px;
+	background:#FFF;
+}
+
+.scrollLaboratoire{
+	margin : 20px;
+	background:#FFF;
+}
+
+
+#liens {
+	position:absolute;
+	margin-top:1280px;
+	margin-right:5%;
+	margin-left:5%;
+    height:100px;
+    width:87%;
+	border: 2px solid;
+	background:#FFF;
+	padding-left: 10px;
+}
 }
