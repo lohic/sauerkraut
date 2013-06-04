@@ -32,6 +32,7 @@ wp-content/*
 # specify (see the commented-out example for a hint on how to do this.)
 wp-content/themes/*
 !wp-content/themes/sauerkraut/
+!wp-content/themes/sauerkraut-v1/
 
 wp-content/plugins/hello.php
 
