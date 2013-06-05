@@ -16,3 +16,14 @@ $(document).ready(function(){
 	});
 
 });
+
+
+/*
+SCRIPT POUR FANCYBOX
+-> à insérer dans le champ prévu pour les scripts personnalisés
+//jQuery(thumbnails).addClass("fancybox").attr("rel","fancybox").getTitle();
+jQuery(".gallery").each(function(){
+	var galleryCat = "fancybox-"+jQuery(this).attr("id");
+	jQuery("a",this).addClass("fancybox").attr("rel",galleryCat).getTitle();
+});
+ */
