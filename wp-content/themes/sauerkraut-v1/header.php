@@ -37,8 +37,8 @@
     <div id="page">
 
       <header>
-        <h1><a href="<?php echo get_settings('home'); ?>">SURKRUT</h1>
-        <p class="description">Le blog de l'atelier de communication graphique de l'ESADS/HEAR</p>
+        <h1><a href="<?php bloginfo('url'); ?>"><?php bloginfo('name'); ?></a></h1>
+        <p class="description"><?php bloginfo('description'); ?></p>
         <!--<h1><a href="<?php echo get_settings('home'); ?>"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/surkrut.jpg" alt="Sürkrüt"/></a></h1>
         <p><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/slogan.jpg" alt="Le blog de l'atelier de communication graphique de l'ESADS/HEAR"/></p>-->
       </header>
