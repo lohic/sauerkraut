@@ -16,3 +16,12 @@ if(is_admin()) {
 Tutoriaux CSS sur le site du zéro :
 
 http://www.siteduzero.com/informatique/css/tutoriels
+
+
+Plugins jQuery sticky post :
+- http://bashooka.com/coding/jquery-sticky-scroll-plugins/
+- http://mojotech.github.io/stickymojo/
+- http://www.jquery4u.com/plugins/10-jquery-sticky-scroll-plugins/
+- http://dropthebit.com/demos/stickyfloat/stickyfloat.html
+- http://yckart.github.io/jquery.fixer.js/
+- *** https://github.com/ymschaap/jquery-lockfixed#readme
