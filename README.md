@@ -25,3 +25,7 @@ Plugins jQuery sticky post :
 - http://dropthebit.com/demos/stickyfloat/stickyfloat.html
 - http://yckart.github.io/jquery.fixer.js/
 - *** https://github.com/ymschaap/jquery-lockfixed#readme
+
+
+Scrollbar :
+- http://manos.malihu.gr/jquery-custom-content-scroller/
