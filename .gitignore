@@ -33,6 +33,7 @@ wp-content/*
 wp-content/themes/*
 !wp-content/themes/sauerkraut/
 !wp-content/themes/sauerkraut-v1/
+!wp-content/themes/sauerkraut-v1.5/
 
 wp-content/plugins/hello.php
 
